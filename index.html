@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renato Fillipo</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="assets/images/node-dot-js.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a href="" class="title">Renato Fillipo</a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#projects">Projetos</a></li>
+            <li><a class="title" href="#skills">Skills</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-x"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section flex-wrapper" id="home">
+        <div class="titulo">
+          <h1 class="title">Renato Fillipo</h1>
+          <div class="subtitulo">
+            <p class="title">
+              <i class="icon-embed"></i>
+              <span id="subtitulo" class="escreverTitulo"
+                >Back-End Developer</span
+              >
+              <i class="icon-embed2"></i>
+            </p>
+          </div>
+        </div>
+
+        <div class="informations code-window">
+          <div class="window-header">
+            <div class="window-controls">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="window-tab">
+              <i class="icon-terminal"></i> terminal — node index.js
+            </div>
+          </div>
+          <div class="window-content">
+            <div class="code-text">
+              <p>
+                <span class="token-comment"
+                  >// Inicializando perfil de desenvolvedor...</span
+                >
+              </p>
+              <p>
+                > <span class="token-keyword">const</span> dev =
+                <span class="token-string">"Renato Fillipo"</span>;
+              </p>
+              <p>
+                > <span class="token-keyword">const</span> status =
+                <span class="token-string">"Graduando na Facens"</span>;
+              </p>
+              <p>
+                > <span class="token-keyword">console</span>.<span
+                  class="token-property"
+                  >log</span
+                >(<span class="token-string"
+                  >"Olá! Sou o Renato, um desenvolvedor Back-End."</span
+                >);
+              </p>
+              <br />
+              <p class="terminal-output">
+                Olá! Sou o Renato! Um desenvolvedor Back-End focado em construir
+                aplicações reais e evoluir cada vez mais.
+              </p>
+              <p class="terminal-output">
+                Sou focado em desenvolvimento com NodeJs e banco de dados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="about">
+        <div class="container flex-wrapper">
+          <h2 class="title">Sobre mim</h2>
+          <div class="code-window">
+            <div class="window-header">
+              <div class="window-controls">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="window-tab">
+                <i class="icon-embed"></i> biografia.txt
+              </div>
+            </div>
+
+            <div class="window-content bio-text">
+              <div class="code-text">
+                <p>
+                  Olá! Sou o <strong>Renato Fillipo</strong>, estudante de
+                  Análise e Desenvolvimento de Sistemas na FACENS e
+                  desenvolvedor focado no ecossistema Back-End.
+                </p>
+                <br />
+                <p>
+                  Minha jornada na tecnologia começou em 2022. O curso de ADS
+                  tem me proporcionado a base técnica necessária para entender o
+                  ciclo de vida do software, enquanto o desenvolvimento web me
+                  permite transformar requisitos complexos em produtos reais.
+                  Hoje, meu foco principal é <strong>Node.js</strong>, onde
+                  aplico práticas rigorosas de segurança, como autenticação JWT
+                  e criptografia de dados.
+                </p>
+                <br />
+                <p>
+                  Busco sempre unir o raciocínio lógico da análise de sistemas
+                  com a agilidade do desenvolvimento moderno para criar APIs que
+                  sejam, acima de tudo, eficientes, seguras e escaláveis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <h2 class="title centralizar-titulo">Projetos</h2>
+
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="assets/images/projeto_find.png" alt="Preview Find" />
+              </div>
+
+              <div class="project-content">
+                <h3 class="project-title">Find - Busca de Pets</h3>
+                <p class="project-description">
+                  Plataforma Full-Stack para anúncio de pets perdidos com
+                  sistema de autenticação, criptografia e upload de imagens.
+                </p>
+
+                <div class="project-tags">
+                  <span>Node.js</span>
+                  <span>SQLite</span>
+                  <span>JWT</span>
+                  <span>Bcrypt</span>
+                </div>
+
+                <div class="project-buttons">
+                  <a
+                    href="https://find-roan.vercel.app/index.html"
+                    target="_blank"
+                    class="button-card"
+                  >
+                    <i class="icon-link"></i> Projeto rodando
+                  </a>
+                  <a
+                    href="https://github.com/renatofpog/Find"
+                    target="_blank"
+                    class="button-card outline"
+                  >
+                    <i class="icon-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- ** EM DESENVOLVIMENTO **
+            <div class="project-card">
+              <div class="project-image">
+                <div class="image-overlay">Habitual</div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Habitual Back-End</h3>
+                <p class="project-description">
+                  API robusta para controle de atividades diárias, podendo criar
+                  novas atividades, excluir e marcar como finalizada,
+                  funcionando como uma agenda virtual.
+                </p>
+                <div class="project-tags">
+                  <span>Node.js</span>
+                  <span>SQLite</span>
+                  <span>Express</span>
+                </div>
+                <div class="project-buttons">
+                  <a href="#" class="button-card">Projeto rodando</a>
+                  <a href="#" class="button-card outline">GitHub</a>
+                </div>
+              </div>
+            </div>
+            -->
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <h2 class="title centralizar-titulo">Hard Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="icon-node-dot-js"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="skill-card">
+              <i class="icon-javascript"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+              <i class="icon-database"></i>
+              <span>SQLite / MySQL</span>
+            </div>
+            <div class="skill-card">
+              <i class="icon-lock-closed"></i>
+              <span>JWT & Bcrypt</span>
+            </div>
+            <div class="skill-card">
+              <i class="icon-git"></i>
+              <span>Git & GitHub</span>
+            </div>
+            <div class="skill-card">
+              <i class="icon-cloud"></i>
+              <span>Vercel & Render</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="section">
+        <div class="container grid">
+          <div class="brand">
+            <a href="#home" class="logo-footer"><h3>Renato Fillipo</h3></a>
+          </div>
+
+          <div class="social-contact">
+            <div class="social-links">
+              <a href="https://github.com/renatofpog" target="_blank"
+                ><i class="icon-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/renato-fillipo"
+                target="_blank"
+                ><i class="icon-linkedin"></i
+              ></a>
+            </div>
+
+            <div class="contact-info">
+              <p>
+                <i class="icon-mail-envelope-closed"></i>
+                renatofillipodegoes@gmail.com
+              </p>
+              <p><i class="icon-phone"></i> +55 15 99618-3588</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <a href="#home" class="back-to-top"><i class="icon-arrow-up2"></i></a>
+    </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
