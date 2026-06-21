@@ -385,7 +385,6 @@ nav.show .toggle.icon-menu {
   font-family: var(--font-family);
 }
 
-
 .centralizar-titulo {
   text-align: center;
   margin-bottom: 4rem;
@@ -545,7 +544,6 @@ nav.show .toggle.icon-menu {
   font-size: 2rem;
   color: var(--secundaria);
 }
-
 
 /* Footer */
 footer {
