@@ -52,12 +52,12 @@ body {
 
 .divider-1 {
   height: 1px;
-  background: linear-gradient(270deg, var(--terciaria), var(--secundaria));
+  background: linear-gradient(270deg, #000000, #161616);
 }
 
 .divider-2 {
   height: 1px;
-  background: linear-gradient(270deg, var(--secundaria), var(--terciaria));
+  background: linear-gradient(270deg, #161616, #000000);
 }
 
 /* LAYOUT */
