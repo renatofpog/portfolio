@@ -458,10 +458,23 @@ nav.show .toggle.icon-menu {
   font-size: 0.9rem;
   color: var(--subtitulo);
   margin-bottom: 1.5rem;
-  height: 3.6rem;
-  overflow: hidden;
+  max-height: 4.5rem;
+  overflow-y: auto;
+  padding-right: 5px;
 }
 
+.project-description::-webkit-scrollbar {
+  width: 4px;
+}
+
+.project-description::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.project-description::-webkit-scrollbar-thumb {
+  background: var(--secundaria);
+  border-radius: 4px;
+}
 .project-tags {
   display: flex;
   flex-wrap: wrap;
@@ -502,6 +515,10 @@ nav.show .toggle.icon-menu {
   background-color: transparent;
   border: 1px solid var(--secundaria);
   color: var(--secundaria);
+}
+
+.project-buttons.full-width {
+  grid-template-columns: 1fr;
 }
 
 .button-card:hover {
